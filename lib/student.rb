@@ -20,7 +20,7 @@ class Student
     DB[:conn].execute(sql)
   end
 
-  def
+  
 
 
 
