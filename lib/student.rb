@@ -28,6 +28,9 @@ class Student
   end
 
 
+  def save
+    student = self.new(name, )
+
 
 
 
