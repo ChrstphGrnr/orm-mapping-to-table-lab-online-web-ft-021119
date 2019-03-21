@@ -43,6 +43,9 @@ class Student
     attributes.each do |k, v|
       new.send("#{k}=", v)
     end
+    new.save 
+    new
+  end
 
 
 
